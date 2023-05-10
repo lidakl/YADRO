@@ -28,7 +28,7 @@ function Movie(props) {
                     {mode === 'buy' && <p className="card-text"> {props.data.description}</p>}
                 </div>
                 {props.condition && <div className="text-end mb-1 me-1">
-                <button className="btn btn-primary"
+                <button className="btn btn-secondary"
                         onClick={handleBuyTicket}
                 >Купить билет
                 </button>

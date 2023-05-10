@@ -1,0 +1,19 @@
+.background {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    background-position: bottom;
+}
+
+.blur {
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    backdrop-filter: blur(8px);
+}
+
+.text {
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}

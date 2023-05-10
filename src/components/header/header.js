@@ -15,14 +15,14 @@ function Header() {
         <nav className="nav-bar">
             <div className="row">
                 <div className="col-6">
-            <h3 className="header">
-                Фильмы
-            </h3>
+                    <h3 className="header">
+                        Фильмы
+                    </h3>
                 </div>
                 {!selectedMovie && <div className="col-6">
-            <Search search={search} />
+                    <Search search={search}/>
                 </div>}
-                </div>
+            </div>
 
         </nav>
     );

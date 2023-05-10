@@ -10,8 +10,6 @@ function App() {
     return (
         <div className="App">
                 <Header/>
-                {/*<MoviesCardList data = {movies}/>*/}
-                {/*/!*<MovieTicket*!/*/}
             <BrowserRouter>
                 <Routes>
                     <Route path='/' element={<MoviesCardList data = {movies}/>}></Route>

@@ -73,7 +73,7 @@ function Filter() {
                     </div>
                 </li>
                 <li className="ps-1 pe-1">
-                    <button className="btn btn-primary btn-sm w-100"
+                    <button className="btn btn-secondary btn-sm w-100"
                             onClick={handleFilter}
                     >Применить</button>
                 </li>
