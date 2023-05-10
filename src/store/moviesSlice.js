@@ -11,7 +11,7 @@ const initialState = {
             type: ['detective'],
             dates: [
                 {
-                    date: "20-05-2023",
+                    date: "2023-05-20",
                     sessions: [
                         {
                             time: "12.00",
@@ -24,7 +24,7 @@ const initialState = {
                     ]
                 },
                 {
-                    date: "21-05-2023",
+                    date: "2023-05-21",
                     sessions: [
                         {
                             time: "14.00",
@@ -37,7 +37,7 @@ const initialState = {
                     ]
                 },
                 {
-                    date: "22-05-2023",
+                    date: "2023-05-22",
                     sessions: [
                         {
                             time: "10.00",
@@ -59,7 +59,7 @@ const initialState = {
             type: ['drama', 'fantastic'],
             dates: [
                 {
-                    date: "20-05-2023",
+                    date: "2023-05-20",
                     sessions: [
                         {
                             time: "12.00",
@@ -72,7 +72,7 @@ const initialState = {
                     ]
                 },
                 {
-                    date: "21-05-2023",
+                    date: "2023-05-21",
                     sessions: [
                         {
                             time: "14.00",
@@ -85,7 +85,7 @@ const initialState = {
                     ]
                 },
                 {
-                    date: "22-05-2023",
+                    date: "2023-05-22",
                     sessions: [
                         {
                             time: "10.00",
@@ -109,7 +109,7 @@ const initialState = {
             type: ['drama'],
             dates: [
                 {
-                    date: "20-05-2023",
+                    date: "2023-05-20",
                     sessions: [
                         {
                             time: "12.00",
@@ -122,7 +122,7 @@ const initialState = {
                     ]
                 },
                 {
-                    date: "21-05-2023",
+                    date: "2023-05-21",
                     sessions: [
                         {
                             time: "14.00",
@@ -135,7 +135,7 @@ const initialState = {
                     ]
                 },
                 {
-                    date: "22-05-2023",
+                    date: "2023-05-22",
                     sessions: [
                         {
                             time: "10.00",
@@ -159,7 +159,7 @@ const initialState = {
             type: ['comedy'],
             dates: [
                 {
-                    date: "20-05-2023",
+                    date: "2023-05-20",
                     sessions: [
                         {
                             time: "12.00",
@@ -172,7 +172,7 @@ const initialState = {
                     ]
                 },
                 {
-                    date: "21-05-2023",
+                    date: "2023-05-21",
                     sessions: [
                         {
                             time: "14.00",
@@ -185,7 +185,7 @@ const initialState = {
                     ]
                 },
                 {
-                    date: "22-05-2023",
+                    date: "2023-05-22",
                     sessions: [
                         {
                             time: "10.00",
@@ -211,7 +211,7 @@ const initialState = {
             type: ['comedy'],
             dates: [
                 {
-                    date: "20-05-2023",
+                    date: "2023-05-20",
                     sessions: [
                         {
                             time: "12.00",
@@ -224,7 +224,7 @@ const initialState = {
                     ]
                 },
                 {
-                    date: "21-05-2023",
+                    date: "2023-05-21",
                     sessions: [
                         {
                             time: "14.00",
@@ -237,7 +237,7 @@ const initialState = {
                     ]
                 },
                 {
-                    date: "22-05-2023",
+                    date: "2023-05-22",
                     sessions: [
                         {
                             time: "10.00",
@@ -260,7 +260,7 @@ const initialState = {
             type: ['drama'],
             dates: [
                 {
-                    date: "20-05-2023",
+                    date: "2023-05-20",
                     sessions: [
                         {
                             time: "12.00",
@@ -273,7 +273,7 @@ const initialState = {
                     ]
                 },
                 {
-                    date: "21-05-2023",
+                    date: "2023-05-21",
                     sessions: [
                         {
                             time: "14.00",
@@ -286,7 +286,7 @@ const initialState = {
                     ]
                 },
                 {
-                    date: "22-05-2023",
+                    date: "2023-05-22",
                     sessions: [
                         {
                             time: "10.00",
