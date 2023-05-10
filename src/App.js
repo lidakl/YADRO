@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import {Header} from "./components/header/header";
+import {MoviesCardList} from "./components/movies/movies-card-list/movies-card-list";
+import {useSelector} from "react-redux";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {MovieTicket} from "./components/movies/movies-card-list/movie-card/movie-ticket";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const movies = useSelector((state) => state.movies.movies)
+
+    return (
+        <div className="App">
+                <Header/>
+                {/*<MoviesCardList data = {movies}/>*/}
+                {/*/!*<MovieTicket*!/*/}
+            <BrowserRouter>
+                <Routes>
+                    <Route path='/' element={<MoviesCardList data = {movies}/>}></Route>
+                    <Route path='movie/:id' element={<MovieTicket/>}></Route>
+                </Routes>
+            </BrowserRouter>
+        </div>
+    );
 }
 
 export default App;

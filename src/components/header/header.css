@@ -1,0 +1,10 @@
+.nav-bar {
+    background-color: rgba(7, 20, 23, 0.87);
+    padding: 1rem 1rem;
+}
+
+.header {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
