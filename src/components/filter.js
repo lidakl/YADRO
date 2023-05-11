@@ -50,12 +50,12 @@ function Filter() {
                     <div className="form-check">
                         <input className="form-check-input"
                                type="checkbox"
-                               value="war"
+                               value="detective"
                                id="flexCheckDefault"
                                onChange={handleFilterGenre}
                         />
                         <label className="form-check-label" htmlFor="flexCheckDefault">
-                            Боевик
+                            Детектив
                         </label>
                     </div>
                 </li>
@@ -68,7 +68,20 @@ function Filter() {
                                onChange={handleFilterGenre}
                         />
                         <label className="form-check-label" htmlFor="flexCheckDefault">
-                            Драмма
+                            Драма
+                        </label>
+                    </div>
+                </li>
+                <li className="ms-2">
+                    <div className="form-check">
+                        <input className="form-check-input"
+                               type="checkbox"
+                               value="fantastic"
+                               id="flexCheckDefault"
+                               onChange={handleFilterGenre}
+                        />
+                        <label className="form-check-label" htmlFor="flexCheckDefault">
+                            Фантастика
                         </label>
                     </div>
                 </li>
