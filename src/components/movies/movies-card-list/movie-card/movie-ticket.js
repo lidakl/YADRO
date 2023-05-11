@@ -86,8 +86,8 @@ function MovieTicket() {
     return (
         <div className="background" style={{backgroundImage: 'url(' + selectedMovie.image + ')'}}>
             <div className="blur">
-                <div className="row mt-4">
-                    <div className="col-md-6">
+                <div className="row">
+                    <div className="col-md-6 mb-4">
                         <Movie data={selectedMovie}/>
                     </div>
                     <div className="col-md-6">
@@ -115,9 +115,10 @@ function MovieTicket() {
                                 })}
                             </select>
                         </div>}
-                        {!selectedDate.sessions && <div className="alert alert-secondary mt-2 mb-0 w-50" role="alert">
-                            Нет сеансов на выбранную дату
-                        </div>}
+                        {!selectedDate.sessions &&
+                            <div className="alert alert-secondary mt-2 mb-0 w-50" role="alert">
+                                Нет сеансов на выбранную дату
+                            </div>}
                         <div className="w-50 mb-1">
                             <label htmlFor="tickets" className="me-2 col-form-label text">Количество билетов</label>
                             <input
@@ -125,7 +126,7 @@ function MovieTicket() {
                                 id="tickets"
                                 className="form-control"
                                 value={seat}
-                                onChange={(event)=>(setSeat(event.target.value))}
+                                onChange={(event) => (setSeat(event.target.value))}
                                 disabled={!selectedDate.sessions}
                             />
                         </div>
@@ -160,15 +161,15 @@ function MovieTicket() {
                         {isNotValidate.includes('phone') &&
                             <span className="help-block" style={{color: 'red'}}>Неверный номер телефона!</span>}
                         <div>
-                        <button className="btn btn-secondary me-4 mt-3 mb-3"
-                                onClick={handleSubmit}
-                                disabled={!selectedDate.sessions}
-                        >Отправить
-                        </button>
-                        <button className="btn btn-dark mt-3 mb-3"
-                                onClick={handleCancel}
-                        >Отменить
-                        </button>
+                            <button className="btn btn-secondary me-4 mt-3 mb-3"
+                                    onClick={handleSubmit}
+                                    disabled={!selectedDate.sessions}
+                            >Отправить
+                            </button>
+                            <button className="btn btn-dark mt-3 mb-3"
+                                    onClick={handleCancel}
+                            >Отменить
+                            </button>
                         </div>
                     </div>
                 </div>

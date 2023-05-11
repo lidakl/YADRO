@@ -1,17 +1,19 @@
 .background {
-    height: 100vh;
+    height: 92vh;
     width: 100%;
     position: fixed;
     overflow: auto;
-    background-position: bottom;
+    overflow-x: hidden;
 }
 
 .blur {
+    height: 92vh;
     width: 100%;
     position: fixed;
-    height: 100vh;
+    overflow: auto;
     backdrop-filter: blur(8px);
     background-color:rgba(0, 0, 0, .5);
+    overflow-x: hidden;
 }
 
 .text {
